@@ -1,0 +1,52 @@
+# 1.motivation
+
+answer the uncertainty questions to our universary
+
+based on mathematics 
+
+inable your-self
+
+# 2.sample space
+
+- two steps:
+
+     - describe possible outcomes
+     - describe beliefs about likelihood of outcomes
+
+- list set of possible outcomes,$\Omega$
+
+<img width="124" alt="image" src="https://user-images.githubusercontent.com/93241432/161426857-7c6c379d-2d29-44be-ba31-65296ce38fab.png">
+
+- list must be:
+
+   - mutually exclusive
+   - collectively exhaustive
+   - at the 'right' granularity
+ 
+# 3.sample space example
+ 
+- sample space:discrete/finite example
+
+- two rolls of a tetrahedral die
+
+- (x,y) such that $0<=x,y<=1$
+
+# 4.probability axioms
+
+- event:a subset of the sample space
+
+- probability is assigned to events
+
+- axioms:
+
+  - nonegatively:$P(A)>=0$ ==> $P(A)<=1$
+  - normalization:$P(\Omega)=1$==>$P(\emptyset)=0$
+  - (finite) additivity:(to be strengthened later)
+  if $A\cap B=\emptyset$,then $P(A\cup B)=P(A)+P(B)$
+  
+  - if $A \belong B$,$P(A)<=P(B)$
+  - $P(A\cup B)=P(A)+P(B)-P(AB)$
+  
+
+
+
